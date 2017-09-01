@@ -91,7 +91,7 @@
 	letter-spacing: 1px;
 	margin-left: 20px;
 	text-align: center;
-	width: ;
+	width: auto;
 	transition: all 0.3s linear;
 }
 .secondary_header ul li:hover {
