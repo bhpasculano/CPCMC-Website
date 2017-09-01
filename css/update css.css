@@ -100,8 +100,8 @@
 }
 .left_article {
 	background-color: #FFFFFF;
-	width: 100%;
-	float: left;
+	width: 50%;
+	float: right;
 	font-family: "Source Sans Pro";
 	color: #343434;
 	padding-bottom: 15px;
@@ -127,8 +127,8 @@
 	color: #B3B3B3;
 }
 .right_article {
-	width: 40%;
-	float: left;
+	width: ;
+	float: center; 
 	background-color: #F6F6F6;
 }
 .container .right_article ul {
@@ -169,7 +169,7 @@
 .title {
 	font-weight: bold;
 	font-style: normal;
-	font-family: "Source Sans Pro";
+	font-family: actor;
 	text-align: center;
 	color: #FFFFFF;
 	letter-spacing: 2px;
@@ -239,8 +239,8 @@ body {
 	padding-bottom: 0px;
 	padding-left: 0px;
 	height: auto;
-	width: 100%;
-	text-align: center;
+	width: 0%;
+ 	text-align: center;
 }
 .secondary_header {
 	margin-top: 0px;
@@ -251,11 +251,11 @@ body {
 	padding-bottom: 40px;
 }
 .left_article {
-	width: 100%;
+	width: 50%;
 	height: auto;
 }
 .right_article {
-	width: 100%;
+	width: 50%;
 	height: auto;
 }
 .placeholder {
