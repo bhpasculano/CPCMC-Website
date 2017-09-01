@@ -67,11 +67,11 @@
 	border-bottom: 2px solid #2C9AB7;
 }
 .secondary_header {
-	width: 21%;
+	width: 100%;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color: #B3B3B3;
-	clear: left;
+	clear: center;
 }
 .container .secondary_header ul {
 	margin-top: 0%;
@@ -85,7 +85,7 @@
 	width: 100%;
 }
 .secondary_header ul li {
-	list-style: circle;
+	list-style: none;
 	float: center;
 	margin-right: 40px;
 	margin-top: 10px;
@@ -97,7 +97,7 @@
 	text-align: center;
 	width: auto;
 	transition: all 0.3s linear;
-}
+</strong>}
 .secondary_header ul li:hover {
 	color: #717070;
 	cursor: pointer;
@@ -195,6 +195,9 @@ IMG.displayed {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: auto;
+	margin-top:auto;
+	padding-top: 25px;
 }
 .left_half {
 	background-color: #52BAD5;
