@@ -1,11 +1,17 @@
 <!doctype html>
 <html>
 <head>
+<script>
+	function messageWindow() {
+		alert("We will show more in Step 2!");
+	}
+</script>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CPC Website</title>
 <link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -14,6 +20,15 @@
     <![endif]-->
 </head>
 <body>
+<div id="buttonScript">
+</div>
+<div id="more" class=button>
+  <div id="moreButton" onClick="messageWindow()">
+		<img src="images/Hamburger-button.png" class="button"/>
+  </div>
+</div>
+
+
 <div class="container">
   <header>
     <div class="primary_header">
@@ -79,5 +94,13 @@
     <div class="copyright">&copy;2015 - <strong>SIMPLE Theme</strong></div>
   </footer>
 </div>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+$(function() {
+	$( "#RadioButtons1" ).buttonset(); 
+});
+</script>
 </body>
 </html>

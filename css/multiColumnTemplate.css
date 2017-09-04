@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.button {
+	background-color: #FFFFFF;
+	width: 20px;
+}
 .container {
 	background-color: #52D87F;
 	width: 90%;
